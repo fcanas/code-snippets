@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: 4D6BF8C9-6E0C-4625-ACFA-1508D08B2D6B
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
     NSArray *frameValues;
     NSValue *small = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.5, 0.5, 1)];
     NSValue *growOvershoot = [NSValue valueWithCATransform3D:CATransform3DMakeScale(1.2, 1.2, 1)];
