@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: D0EFC526-3F2E-45F9-A000-765CB77E1191
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 1
+// IDECodeSnippetVersion: 2
 - (void)test<#Name#> {
     <#statements#>
 }
