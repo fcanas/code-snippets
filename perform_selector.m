@@ -8,5 +8,5 @@
 // IDECodeSnippetVersion: 0
 SEL selector = NSSelectorFromString(<# SEL #>);
     IMP imp = [self methodForSelector:selector];
-    void (*searchFunc)(id, SEL, NSString *) = (void *)searchIMP;
+    void (*func)(id, SEL, NSString *) = (void *)searchIMP;
     searchFunc(self, searchSEL, name);
