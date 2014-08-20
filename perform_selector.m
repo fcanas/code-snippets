@@ -9,4 +9,4 @@
 SEL selector = NSSelectorFromString(<# SEL #>);
 IMP imp = [<# target #> methodForSelector:selector];
     void (*func)(id, SEL) = (void *)imp;
-    func(<# target #>, searchSEL, name);
+    func(<# target #>, selector, name);
