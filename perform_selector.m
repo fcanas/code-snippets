@@ -6,7 +6,7 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-SEL sel = NSSelectorFromString(<# SEL #>);
+SEL selector = NSSelectorFromString(<# SEL #>);
     IMP imp = [self methodForSelector:searchSEL];
     void (*searchFunc)(id, SEL, NSString *) = (void *)searchIMP;
     searchFunc(self, searchSEL, name);
