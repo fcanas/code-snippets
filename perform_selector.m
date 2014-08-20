@@ -7,6 +7,6 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
 SEL selector = NSSelectorFromString(<# SEL #>);
-    IMP imp = [self methodForSelector:selector];
+IMP imp = [<# target #> methodForSelector:selector];
     void (*func)(id, SEL) = (void *)imp;
     func(self, searchSEL, name);
