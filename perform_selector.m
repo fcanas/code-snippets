@@ -1,6 +1,7 @@
 // Perform Selector
 // 
 //
+// IDECodeSnippetCompletionPrefix: performSelector
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 6763D46F-73EE-4E7D-BD66-9B905F95A676
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
