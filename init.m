@@ -8,7 +8,7 @@
 // IDECodeSnippetVersion: 2
 
 self = [super init];
-if (!self) {
+if (self == nil) {
   return nil;
 }
 
